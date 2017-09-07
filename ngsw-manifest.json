@@ -51,11 +51,11 @@
       "/assets/images/tech-logos/php.png": "7d2706ae92c262d77729d71c1202e6f8c5d36837",
       "/assets/styles/app-bluegrey.css": "5cf04969813bbfbbf59c58e039019d8932c4c856",
       "/assets/styles/app-cyan.css": "724226d91c3fb97546e3bfcae065d359dfc34a2c",
-      "/assets/styles/app-dark-pink.css": "472d3fa61ce93438b6f820e3ab6b02331715cc75",
       "/assets/styles/app-dark-orange.css": "35b69e5441cae8e6979309b3a59669094d0049ff",
+      "/assets/styles/app-dark-pink.css": "472d3fa61ce93438b6f820e3ab6b02331715cc75",
       "/favicon.ico": "aec54ec16b9acb11ddd3d86c4632bd6e570f672c",
       "/manifest.json": "a2768d8d086a7166da887993009bddf04afa1a75",
-      "/index.html": "0cb169b49f70dc796f65c7659f8c442df83e0709"
+      "/index.html": "8e113baf46fc5061bf7cef43d46c718b90536f31"
     },
     "_generatedFromWebpack": true
   }
