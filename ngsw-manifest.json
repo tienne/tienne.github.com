@@ -16,8 +16,8 @@
       "/assets/icons/android-chrome-512x512.png": "49358977304e962dbc1dcab142f7a3b92a2f275d",
       "/assets/icons/apple-touch-icon.png": "e96e33cc9c96a2cc1d1c6b5419e64a180f62c4f0",
       "/assets/icons/browserconfig.xml": "1d0c9b84829f2147073094eb0aacd9a9c603ede3",
-      "/assets/icons/favicon-32x32.png": "31048bc540696eef1f7204ba8a278df310e8ff39",
       "/assets/icons/favicon-16x16.png": "1e33908d644418d1a6b4cb158a92c77ee2a9f138",
+      "/assets/icons/favicon-32x32.png": "31048bc540696eef1f7204ba8a278df310e8ff39",
       "/assets/icons/mstile-150x150.png": "93c8dee50b385100bc3e3448624ca0457a3d19c3",
       "/assets/icons/safari-pinned-tab.svg": "0f828fa9e38cbb6c4961612807ec3565d27a5b68",
       "/assets/images/.DS_Store": "a2b9d33949fd8c06ca45b47b370c307b82e14207",
@@ -64,7 +64,7 @@
       "/assets/styles/app-teal.css": "1f86c48d5ca3436fb3df79a128eff2cd0c45fbef",
       "/favicon.ico": "a699fcedfbc9ed57661a3cb9f2bef215240f34fd",
       "/manifest.json": "e05f9f547e454c85352ab0ddec7af83544cf5321",
-      "/index.html": "26625a447f719d142447a49f4d1e91d359395080"
+      "/index.html": "4dc16b0a3dcf8ac77227786c7054a2c5a5eb3094"
     },
     "_generatedFromWebpack": true
   }
