@@ -1,16 +1,44 @@
 {
+  "external": {
+    "urls": [
+      {
+        "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+      }
+    ]
+  },
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      },
+      "/profile": {
+        "prefix": true
+      },
+      "/projects": {
+        "prefix": true
+      },
+      "/contact": {
+        "prefix": true
+      }
+    }
+  },
+  "push": {
+    "showNotifications": true,
+    "backgroundOnly": false
+  },
   "static": {
     "urls": {
       "/0.2819b3a724d431a3d996.chunk.js": "570d487f20263deb5a7798a3e600427d6f441f69",
       "/1.442bbaac800d57b9bb5d.chunk.js": "995ecdb74d4910757913f85ce62f38b02e43dceb",
       "/2.a825698d4080d26eaf38.chunk.js": "74dfc3df56159a97f3c8060529d118c88e40bc18",
       "/polyfills.388153e0bb61cbb55a30.bundle.js": "a651182bf2746a9cc37ed122d0b059c17ba2c7dc",
-      "/main.b8ef750a278affd1bdd1.bundle.js": "0a122bf77c6da9ccd5c94d2b8263cba97e251d67",
+      "/main.43d5f01d5bf44ad86cc2.bundle.js": "51a40964f53b0cfeb33a1e4fd87efdfbfe8d2761",
       "/scripts.b5f689fa8ad924708c72.bundle.js": "12f67b085109d992cfa8cf02d2894539cbe7969c",
       "/sw-register.cc6c073fd2baec4b9443.bundle.js": "50aa1ff5770d9bb5b618b7044a2fc19fca4158fc",
       "/vendor.c1dc41d09ba65d42aad4.bundle.js": "afc2a4b13a0b240cb188a27257352a1a60eac859",
-      "/inline.be31252b559614b30700.bundle.js": "8791ba337d1dcd71546f64182b735f8613c69192",
-      "/styles.c50c96f5c5232703e058.bundle.css": "fcddbe7e2390957d4ddbd5126f0776da6ac38f30",
+      "/inline.846556728ff366071324.bundle.js": "a4c2de9d72f09d47ab9d4af1ec1246b4a50e061a",
+      "/styles.7698761e4cfa5cb3ba76.bundle.css": "162b1f197d053dcd7e4a6151d583ae0c835ed39d",
       "/assets/.DS_Store": "41221a23dd87585939f2f29deb5a86b495d109cf",
       "/assets/icons/android-chrome-192x192.png": "032ef45e92787a55d135e5da49c75210612c3309",
       "/assets/icons/android-chrome-512x512.png": "49358977304e962dbc1dcab142f7a3b92a2f275d",
@@ -61,13 +89,13 @@
       "/assets/images/tech-logos/php.png": "bdd2e8b74944fd05db969d536fb729689d01f78f",
       "/assets/images/tech-logos/pwa.png": "c18ad7666101d68fed45d93a586fb37682761874",
       "/assets/images/tech-logos/sass.png": "ada01c6efdd061d40df8081547e786f95c476102",
-      "/assets/styles/app-bluegrey.css": "c727d896e3a42ee86509b05658f2b8051315e260",
-      "/assets/styles/app-dark-cyan.css": "947ba075ec6f65625da64381751b1eb20b0a8a5e",
-      "/assets/styles/app-dark-pink.css": "c50dfc71767a600476f8cbd9280979586cf224f9",
-      "/assets/styles/app-teal.css": "f4db0bda9a7a8c567052198894777767ac77adbb",
+      "/assets/styles/app-bluegrey.css": "11945b65462543cdb36a9ee6d20db83d411740e5",
+      "/assets/styles/app-dark-cyan.css": "10b4ab595aee1ee7d4c4fb1ae601f3dc9fbb8f33",
+      "/assets/styles/app-dark-pink.css": "2caeaa95469a2644325cca491db46067d0e6f048",
+      "/assets/styles/app-teal.css": "8ac7d3c976691f4fc34cbc8e0cc2778e0bdf4af8",
       "/favicon.ico": "a699fcedfbc9ed57661a3cb9f2bef215240f34fd",
       "/manifest.json": "e05f9f547e454c85352ab0ddec7af83544cf5321",
-      "/index.html": "2d5e83eb7e65a21c7dc4e9d41307a62dc2f94aab"
+      "/index.html": "9f83abcf741594b930dd66945fbec2b8ace6ac41"
     },
     "_generatedFromWebpack": true
   }

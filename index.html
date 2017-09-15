@@ -11,12 +11,85 @@
       display: block; position: relative; padding: 10px 20px; margin: 30px auto 0; width: 230px; /*need for IE*/
       color: #ffffff; text-decoration: none; border: 2px solid #ffffff; cursor: pointer;
     }
-    #outdated-info #btnUpdateBrowser:hover{color: #f25648; background-color:#ffffff;}</style><!-- ga --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    #outdated-info #btnUpdateBrowser:hover{color: #f25648; background-color:#ffffff;}
+    .app-loading {
+      background: #e91e63;
+      display:flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    .app-loading-inner {
+      display: flex;
+      flex-direction: column;
+    }
+    .app-loading-inner img {
+      display: flex;
+    }
+    .spinner-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .spinner {
+      width: 100%;
+      display: flex;
+      width: 50px;
+      height: 40px;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .spinner > div {
+      margin: 1px;
+      background-color: rgb(216, 216, 216);
+      height: 100%;
+      width: 6px;
+      display: inline-block;
+
+      -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+      animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    }
+
+    .spinner .rect2 {
+      -webkit-animation-delay: -1.1s;
+      animation-delay: -1.1s;
+    }
+
+    .spinner .rect3 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+
+    .spinner .rect4 {
+      -webkit-animation-delay: -0.9s;
+      animation-delay: -0.9s;
+    }
+
+    .spinner .rect5 {
+      -webkit-animation-delay: -0.8s;
+      animation-delay: -0.8s;
+    }
+
+    @-webkit-keyframes sk-stretchdelay {
+      0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+      20% { -webkit-transform: scaleY(1.0) }
+    }
+
+    @keyframes sk-stretchdelay {
+      0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+      }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+         }
+    }</style><!-- ga --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-106067288-1', 'auto');</script><link href="styles.c50c96f5c5232703e058.bundle.css" rel="stylesheet"/></head><body><!--Flexbox 미지원 브라우저는 오래된 브라우저 처리--><div id="outdated-info"><h6>브라우저가 오래되었습니다!</h6><p>이 웹 페이지가 현재 브라우저에서는 정상적으로 보이지 않을 수 있습니다. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/ko">지금 브라우저를 업그레이드하세요!</a></p></div><app-root></app-root><!--flexbox check --><script type="text/javascript">(function() {
+    ga('create', 'UA-106067288-1', 'auto');</script><link href="styles.7698761e4cfa5cb3ba76.bundle.css" rel="stylesheet"/></head><body><!--Flexbox 미지원 브라우저는 오래된 브라우저 처리--><div id="outdated-info"><h6>브라우저가 오래되었습니다!</h6><p>이 웹 페이지가 현재 브라우저에서는 정상적으로 보이지 않을 수 있습니다. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/ko">지금 브라우저를 업그레이드하세요!</a></p></div><app-root><div class="app-loading"><div class="app-loading-inner"><img src="assets/images/logo.png" width="192px"> <img src="assets/images/logo-text.png" width="192px"><div class="spinner-wrap"><div class="spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div></div></div></app-root><!--flexbox check --><script type="text/javascript">(function() {
       var d = document.documentElement.style,
         outdated = document.getElementById('outdated-info');
 
@@ -27,4 +100,4 @@
         outdated.style.display = 'block';
         ga('send', 'outDateBrowser');
       }
-    })();</script><!--스크립트가 없을때의 처리--><noscript>해당 페이지는 Javascript가 필요한 페이지입니다. 브라우저 설정에서 자바스크립트 사용함으로 변경해주시기 바랍니다.</noscript><script type="text/javascript" src="inline.be31252b559614b30700.bundle.js"></script><script type="text/javascript" src="polyfills.388153e0bb61cbb55a30.bundle.js"></script><script type="text/javascript" src="sw-register.cc6c073fd2baec4b9443.bundle.js"></script><script type="text/javascript" src="scripts.b5f689fa8ad924708c72.bundle.js"></script><script type="text/javascript" src="vendor.c1dc41d09ba65d42aad4.bundle.js"></script><script type="text/javascript" src="main.b8ef750a278affd1bdd1.bundle.js"></script></body></html>
+    })();</script><!--스크립트가 없을때의 처리--><noscript>해당 페이지는 Javascript가 필요한 페이지입니다. 브라우저 설정에서 자바스크립트 사용함으로 변경해주시기 바랍니다.</noscript><script type="text/javascript" src="inline.846556728ff366071324.bundle.js"></script><script type="text/javascript" src="polyfills.388153e0bb61cbb55a30.bundle.js"></script><script type="text/javascript" src="sw-register.cc6c073fd2baec4b9443.bundle.js"></script><script type="text/javascript" src="scripts.b5f689fa8ad924708c72.bundle.js"></script><script type="text/javascript" src="vendor.c1dc41d09ba65d42aad4.bundle.js"></script><script type="text/javascript" src="main.43d5f01d5bf44ad86cc2.bundle.js"></script></body></html>
