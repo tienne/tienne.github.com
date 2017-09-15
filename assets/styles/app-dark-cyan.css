@@ -1376,18 +1376,16 @@ app-toolbar .mat-select-value {
   font-weight: 400;
   color: #ffffff; }
 
-.not-found-wrapper {
+.not-found-wrapper,
+.auth-wrap {
   background: #303030;
   color: white; }
 
 .mat-bg-primary,
 .app-toolbar,
+.auth-wrap .login-header,
 .sidenav.mat-sidenav .sidenav-list-item.active md-icon:not(.menu-caret),
-.chats-wrap .conversations-hold .single-conversation.me .conversation-msg,
-.ngx-datatable .datatable-footer .datatable-pager .pager .pages.active a,
-.fileupload-drop-zone.dz-file-over,
 .toolbar-avatar.online > .status-dot,
-.cal-open-day-events,
 div.hopscotch-bubble {
   background: #00bcd4 !important;
   color: #ffffff !important; }
